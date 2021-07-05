@@ -1,0 +1,58 @@
+@import "../../../Constants/cssVariables.scss";
+
+.Header
+{
+    display:flex;
+    height: 60px;
+    width: 100vw;
+    background-color: $primaryColor;
+    color: white;
+    div
+    {
+       flex-wrap: wrap;
+    }
+}
+
+.Holder
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.SearchBar
+{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input
+    {
+        width: 90%;
+        outline: none;
+        height: 70%;
+        border-radius:25px;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+}
+
+.Nav
+{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 80px;
+
+    
+    .Icon
+    {
+        font-size: 20px;
+        color: white;
+        margin-left: 40px;
+        text-decoration: none;
+    }
+}

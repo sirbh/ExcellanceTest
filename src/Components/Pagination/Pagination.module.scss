@@ -1,0 +1,91 @@
+@import '../../Constants//cssVariables.scss';
+
+.Main {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    div
+    {
+        width: 80%;
+    }
+}
+
+.Header
+{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Footer
+{
+    height: 10%;
+    width: 60%;
+}
+
+.Container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    background-color: $primaryColor;
+    height: 40px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.Page
+{
+    width: 30px;
+    height: 30px;
+
+     &:hover
+     {
+         cursor: pointer;
+     }
+}
+
+.PageActive
+{
+    color:darkblue;
+    border:2px solid darkblue;
+    border-radius: 50%;
+}
+
+.Next
+{
+    &:hover
+    {
+        cursor: pointer;
+    }
+}
+
+.Previous
+{
+    &:hover
+    {
+        cursor: pointer;
+    }
+}
+
+.Disabled
+{
+    color: lightblue;
+
+    &:hover
+    {
+        cursor: no-drop;
+    }
+}
+
+

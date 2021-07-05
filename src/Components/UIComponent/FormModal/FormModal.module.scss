@@ -1,0 +1,36 @@
+@import '../../../Constants/cssVariables.scss';
+
+.FormModal
+{
+    width: 700px;
+    height: 500px;
+    display:flex;
+    flex-direction: row;
+
+}
+
+.Head
+{
+    width: 30%;
+    height: 100%;
+    background-color: $primaryColor;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+    h1
+    {
+        text-align: start;
+        color: white;
+        font-size: 45px;
+    }
+
+}
+
+.Form
+{
+    width: 70%;
+    height: 100%;
+    padding: 60px;
+    background-color: white;
+}

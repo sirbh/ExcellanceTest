@@ -1,0 +1,28 @@
+@import "../../../Constants//cssVariables.scss";
+
+.Detail
+{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid $primaryColor;
+    margin-top: 20px;
+
+    p
+    {
+        text-align: start;
+        padding-left: 50px;
+        font-size: 30px;
+    }
+
+    img
+    {
+        margin: 10px;
+        border-radius: 50%;
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+    }
+}
