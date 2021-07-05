@@ -1,3 +1,11 @@
+
+
+# Quetion 1 is the app & Quetion 2 is on tab "Page"
+
+I have solved both quetion in single app.
+Quetion 1 is availble the entire app
+Quetion2 is on tab "page"
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
