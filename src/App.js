@@ -22,7 +22,7 @@ function App() {
   const [sortToggle, setSortToggle] = useState(true);
   const addProductHandler = () => {
     if (!isAuth) {
-      window.alert("please LogIn first to add product !!!");
+      window.alert("please LogIn first to add task !!!");
       return;
     }
     dispatch(show("add-task"));
